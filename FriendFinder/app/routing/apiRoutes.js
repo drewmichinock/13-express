@@ -25,6 +25,8 @@ module.exports = function (app) {
 
         for (i = 0; i < friends.length; i++) {
 
+            userScore = parseInt(newFriend.scores);
+
             parseInt(friends[i].scores);
 
             var userScores = newFriend.abs(.scores)
