@@ -1,10 +1,12 @@
+var friends = require("../data/friends");
+
 module.exports = function (app) {
-    
+
     // A GET route with the url /api/friends. 
     // used to display a JSON of all possible friends.
     app.get("/api/friends", function (req, res) {
 
-        res.sendFile(path.join(__dirname, "friends.js"));
+        res.json(friends);
 
     });
 
@@ -24,3 +26,7 @@ module.exports = function (app) {
     });
 
 };
+
+// if any of the questions are unanswered, then alert:
+
+// "Please fill out all fields before submitting!"
