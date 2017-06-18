@@ -1,5 +1,5 @@
 // array will hold all friends added
-var friendsArray = [
+var friends = [
     { "name": "Liam", "photo": "https://randomuser.me/api/portraits/men/68.jpg", "scores": ["3", "4", "1", "4", "4", "5", "3", "2", "4", "1"] },
     { "name": "Noah", "photo": "https://randomuser.me/api/portraits/men/86.jpg", "scores": ["5", "3", "5", "3", "5", "3", "4", "1", "3", "5"] },
     { "name": "Mason", "photo": "https://randomuser.me/api/portraits/men/60.jpg", "scores": ["3", "2", "4", "3", "3", "2", "3", "3", "2", "2"] },
@@ -9,4 +9,4 @@ var friendsArray = [
 ];
 
 // export the array to make it accessible to other files using require
-module.exports = friendsArray;
+module.exports = friends;

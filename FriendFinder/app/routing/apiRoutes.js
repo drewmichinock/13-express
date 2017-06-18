@@ -19,14 +19,21 @@ module.exports = function (app) {
 
         console.log(newFriend);
 
-        friendsArray.push(newFriend);
+        friends.push(newFriend);
 
         res.json(newFriend);
 
+        for (i = 0; i < friends.length; i++) {
+
+            parseInt(friends[i].scores);
+
+            var userScores = newFriend.abs(.scores)
+
+            var friendScores = friend
+
+            userScores # 
+
     });
 
-};
+}; // end module.exports
 
-// if any of the questions are unanswered, then alert:
-
-// "Please fill out all fields before submitting!"
